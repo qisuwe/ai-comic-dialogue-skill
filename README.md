@@ -14,13 +14,17 @@ AI漫剧人物对话质量提升 Skill。
 - 帮我提高这段AI漫剧的人物对话质量
 - 写一段更自然的角色对话，适合短视频漫剧
 - 优化剧本里的对白，让角色更有性格
+- 按霸总模板写一段对话
 
 ## 文件结构
 
 ```
-SKILL.md              ← 主入口（流程 + 原则）
-references/examples.md ← 前后对比示例
-evals/                ← 触发测试
+SKILL.md                              ← 主入口（流程 + 原则）
+references/examples.md                 ← 基础前后对比示例
+references/genre-examples.md           ← 更多题材示例（甜宠/重生/系统流/虐恋/女强）
+references/character-voice-templates.md ← 角色声音卡片
+references/ai-dialogue-blacklist.md    ← AI 味对白黑名单
+evals/                                ← 触发测试
 CHANGELOG.md
 ```
 
