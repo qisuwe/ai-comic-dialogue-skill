@@ -1,0 +1,10 @@
+{
+  "skill": "ai-comic-dialogue",
+  "test_cases": [
+    {"input": "帮我提高这段AI漫剧的人物对话质量", "should_trigger": true},
+    {"input": "写一段更自然的角色对话，适合短视频漫剧", "should_trigger": true},
+    {"input": "优化剧本里的对白，让角色更有性格", "should_trigger": true},
+    {"input": "怎么画这个角色的脸", "should_trigger": false},
+    {"input": "推荐一些AI漫剧制作工具", "should_trigger": false}
+  ]
+}
