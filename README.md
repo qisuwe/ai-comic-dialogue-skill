@@ -24,8 +24,10 @@ references/examples.md                 ← 基础前后对比示例
 references/genre-examples.md           ← 更多题材示例（甜宠/重生/系统流/虐恋/女强）
 references/character-voice-templates.md ← 角色声音卡片
 references/ai-dialogue-blacklist.md    ← AI 味对白黑名单
+references/consistency-tracker.md      ← 多集一致性状态卡
+references/usage-guide.md              ← 使用指南
 evals/                                ← 触发测试
 CHANGELOG.md
 ```
 
-详细规则见 `SKILL.md`。
+详细规则见 `SKILL.md`，使用方法见 `references/usage-guide.md`。
