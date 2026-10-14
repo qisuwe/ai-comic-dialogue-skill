@@ -25,6 +25,7 @@ Use this skill to generate or refine character dialogues that feel natural, dist
    - Prefer subtext over direct statement. Characters rarely say exactly what they mean.
    - Include action beats or visual cues that can pair with dialogue (e.g., "turns away", "forces a smile").
    - Build toward a clear emotional peak or punchline suitable for a 15-60s clip.
+   - Use `references/emotional-peak-templates.md` for peak design.
 
 4. **Refine for Quality**
    - Check consistency: Does this line match the character's established voice?
@@ -34,6 +35,7 @@ Use this skill to generate or refine character dialogues that feel natural, dist
    - Verify visual synergy: Can this dialogue be illustrated effectively in AI image/video generation?
    - Run against `references/ai-dialogue-blacklist.md`.
    - For multi-episode work, check `references/consistency-tracker.md`.
+   - For video generation, see `references/video-model-tips.md`.
 
 5. **Output Format**
    Prefer clean script format:
@@ -77,7 +79,11 @@ When refining existing dialogue, always quote the original lines and show the im
 
 ## References
 - `references/examples.md` — basic before/after examples
-- `references/genre-examples.md` — more genre-specific examples (甜宠、重生、系统流、虐恋、女强)
+- `references/genre-examples.md` — genre examples (甜宠、重生、系统流、虐恋、女强)
+- `references/more-genre-examples.md` — additional genres (古言、都市职场、悬疑)
 - `references/character-voice-templates.md` — common character speaking styles
 - `references/ai-dialogue-blacklist.md` — common AI-sounding phrases to avoid
 - `references/consistency-tracker.md` — lightweight multi-episode consistency helper
+- `references/emotional-peak-templates.md` — emotional peak design for short clips
+- `references/video-model-tips.md` — tips for pairing with video generation models
+- `references/usage-guide.md` — practical usage guide
