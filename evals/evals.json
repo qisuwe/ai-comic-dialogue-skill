@@ -1,0 +1,20 @@
+{
+  "skill": "ai-comic-dialogue",
+  "test_cases": [
+    {
+      "name": "refine_stiff_dialogue",
+      "input": "帮我改一下这段AI漫剧对话，让它更自然：男主：我喜欢你。女主：我也喜欢你。",
+      "assertions": ["Provides rewritten version with distinct character voices and subtext", "Keeps lines short and suitable for short video", "Notes what was improved"]
+    },
+    {
+      "name": "generate_conflict_scene",
+      "input": "写一段AI漫剧里霸总和女主吵架的对话，女主要有性格，不要太软。",
+      "assertions": ["Creates short, punchy lines with clear conflict", "Gives each character a distinct voice", "Includes action beats or visual cues"]
+    },
+    {
+      "name": "character_consistency_check",
+      "input": "这个角色之前说话很冷静，现在这段对话突然变得很激动，帮我调整得更一致。",
+      "assertions": ["Adjusts dialogue to match established calm personality", "Preserves emotional intent while improving consistency", "Suggests how to show intensity through subtext or action instead"]
+    }
+  ]
+}
