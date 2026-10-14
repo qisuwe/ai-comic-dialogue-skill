@@ -14,6 +14,7 @@ Use this skill to generate or refine character dialogues that feel natural, dist
 1. **Establish Character Voices**
    - Create or load a brief character profile for each speaker: core personality, speech habits (formal/casual, verbose/terse, slang, catchphrases), emotional baseline, relationship to others, current goal/conflict in the scene.
    - Ensure every line reflects that voice. Different characters must sound different even without tags.
+   - Load `references/character-voice-templates.md` for common archetypes.
 
 2. **Define Scene Purpose**
    - Clarify what the scene must achieve: reveal information, escalate conflict, show character change, deliver emotional beat, or set up next visual gag/action.
@@ -31,6 +32,7 @@ Use this skill to generate or refine character dialogues that feel natural, dist
    - Strengthen conflict or desire: What does each character want from this exchange? Make it visible in the words.
    - Test readability aloud: If it sounds stiff or "AI-written", rewrite.
    - Verify visual synergy: Can this dialogue be illustrated effectively in AI image/video generation?
+   - Run against `references/ai-dialogue-blacklist.md`.
 
 5. **Output Format**
    Prefer clean script format:
@@ -72,5 +74,8 @@ Use this skill to generate or refine character dialogues that feel natural, dist
 
 When refining existing dialogue, always quote the original lines and show the improved version with a brief note on what changed and why.
 
-## Examples & Patterns
-See `references/examples.md` for concrete before/after rewrites, character voice contrasts, and short-clip emotional peaks. Load it when you need sample patterns or when the user asks for examples.
+## References
+- `references/examples.md` — basic before/after examples
+- `references/genre-examples.md` — more genre-specific examples (甜宠、重生、系统流、虐恋、女强)
+- `references/character-voice-templates.md` — common character speaking styles
+- `references/ai-dialogue-blacklist.md` — common AI-sounding phrases to avoid
