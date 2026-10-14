@@ -33,6 +33,7 @@ Use this skill to generate or refine character dialogues that feel natural, dist
    - Test readability aloud: If it sounds stiff or "AI-written", rewrite.
    - Verify visual synergy: Can this dialogue be illustrated effectively in AI image/video generation?
    - Run against `references/ai-dialogue-blacklist.md`.
+   - For multi-episode work, check `references/consistency-tracker.md`.
 
 5. **Output Format**
    Prefer clean script format:
@@ -79,3 +80,4 @@ When refining existing dialogue, always quote the original lines and show the im
 - `references/genre-examples.md` — more genre-specific examples (甜宠、重生、系统流、虐恋、女强)
 - `references/character-voice-templates.md` — common character speaking styles
 - `references/ai-dialogue-blacklist.md` — common AI-sounding phrases to avoid
+- `references/consistency-tracker.md` — lightweight multi-episode consistency helper
